@@ -1,0 +1,7 @@
+{
+	// Format & lint on save
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+	  "source.fixAll.eslint": "always",
+	},
+}

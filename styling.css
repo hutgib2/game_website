@@ -1,0 +1,110 @@
+body {
+	font-family: Arial;
+	background-color: rgb(50, 50, 50);
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-wrap: balance;
+}
+
+/* TODO: sort all sizings properly */
+p {
+	text-wrap: pretty;
+	font-size: var(--font-base);
+	font-weight: 400;
+}
+
+h1 {
+	font-size: var(--font-2xl);
+	font-weight: 600;
+}
+
+h2 {
+	font-size: var(--font-l);
+	font-weight: 600;
+}
+
+h3 {
+	font-size: var(--font-m);
+	font-weight: 500;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* set all default margins to 0 except dialogue */
+*:not(dialog) {
+	margin: 0;
+}
+
+*:focus-visible {
+	outline: 1px solid var(--color-surface-accent);
+	border-radius: var(--radius-s);
+	outline-offset: var(--gap-1);
+}
+
+html,
+body {
+	min-height: 100dvh;
+}
+
+img,
+svg,
+video,
+canvas,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms;
+		animation-iteration-count: 1;
+		transition-duration: 0.01ms;
+	}
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+header {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 100%;
+   display: flex;
+  text-align: center;
+  width: 100vw;
+}
