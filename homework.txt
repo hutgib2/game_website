@@ -1,0 +1,5 @@
+my homework is to resize some games then add their screenshots to game_website folder.
+
+important code:
+screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+WINDOW_WIDTH, WINDOW_HEIGHT = screen.get_size()
