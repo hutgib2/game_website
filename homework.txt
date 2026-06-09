@@ -1,5 +1,3 @@
-my homework is to resize some games then add their screenshots to game_website folder.
+my homework is to get ideas for my website ui interface design.
 
-important code:
-screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
-WINDOW_WIDTH, WINDOW_HEIGHT = screen.get_size()
+website inspiration ideas: https://dribbble.com/tags/ui
